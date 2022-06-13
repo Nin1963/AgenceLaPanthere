@@ -90,10 +90,10 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
+/* .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-}
+} */
 
 .b-parallax {
     background-attachment: fixed;
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    /* color: #575757!important; */
 }
 
 .container {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 17px;
 }
 
 .tight-width-whitespace {
@@ -722,9 +722,13 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
+.med-width-whitespace p {
+    font-size: 15px;
 }
+
+/* h1 {
+    color: #333333!important;
+} */
 
 h4 {
     color: #333333!important;
@@ -741,6 +745,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
+    height: 100%;
 }
 
 .portfolio-row {
@@ -753,7 +759,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #330300;
     padding: 40px 40px 40px 40px;
 }
 
@@ -766,16 +772,17 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
+/* .bgc-dark-slate-blue {
     background-color: #364577;
-}
+} */
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F3A884;
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine {
@@ -822,7 +829,12 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
+}
+
+blockquote p {
+    font-weight: 700;
+    font-size: 18px;
 }
 
 @media (max-width: 1024px) {
